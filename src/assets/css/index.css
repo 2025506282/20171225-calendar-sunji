@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.nav a {
+  display: block;
+  width: 33.33%;
+  font-family: 'Arial';
+  font-size: 2.4em;
+  float: left;
+  text-align: center;
+  color:#9e9a95;
+  line-height: 4.1rem;
+  border-bottom: 0.3em solid transparent;
+  text-decoration: none;
+}
+.nav .router-link-active {
+  border-bottom: 0.2em solid #5477b2;
+  color:#5477b2;
+}
+.home,.attention,.column {
+  width: 100%;
+  position: absolute;
+  top: 4.9em;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.clear {
+  clear: both;
+}
+.articleList,.attentionList,.columnList {
+  margin-bottom: 4.9em;
+}
+.articleDetail,.attentionDetail,.columnDetail {
+  color: #000000;
+  text-decoration: none;
+}
+.articleDetail:hover,.attentionDetail:hover,.columnDetail:hover {
+  text-decoration: underline;
+}
+.articleDetail h2,.attentionDetail h2,.columnDetail h2 {
+  margin-top: 10px;
+  padding:0 10px;
+}
+.articleDetail p,.attentionDetail p,.columnDetail p {
+  padding:0 10px;
+  text-indent: 21px;
+}

@@ -1,4 +1,18 @@
-# ang-mei
-这是一个单页应用
+# news-project-sunji
 
-https://2025506282.github.io/ang-mei/index.html
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
